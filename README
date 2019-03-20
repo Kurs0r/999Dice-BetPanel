@@ -1,0 +1,19 @@
+README
+
+
+WHAT THIS BOT DOES:
+
+When placing bets on 999Dice, through the web interface or even using (most) available bots, you are limited to high or low bets. The win chance entered determines the RANGE of numbers for your roll to land in in order to win. For example, at a 5% chance to win, when you press 'Bet Low' your roll must land between 0 and 50,000 to win. The inverse is true when you choose 'Bet High,' your roll must land between 949999 and 999999 to win. HOWEVER, using the API provided you can place a bet with 5% chance to win using any range of numbers. (e.g. 400,000 - 450,000)
+
+There is a checkbox for 'random 5%c' which generates a random number from 0-94999 for the low number, and for the second number in the range, adds 50,000 to it giving you a 5% chance of winning. The site itself as well as most other bots available do not have this feature. 
+
+You log into the bot using 999dice credentials or you can register a new account.
+
+
+
+IT SHOULD BE NOTED:
+
+This bot is largely incomplete. Sloppy. Some parts of it may be insecure. It does NOT show deposit addresses, it will NOT withdraw funds or do anything other than place bets and log in/ create accounts.
+
+THIS BOT SHOULD ONLY BE RUN LOCALLY.
+
